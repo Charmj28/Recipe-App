@@ -1,0 +1,24 @@
+.recipeTile_img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+.recipeTile{
+ cursor:pointer;
+
+}
+.recipeTile_name{
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.app_healthLabels{
+    padding:7px 8px;
+    margin-left: 6px;
+    border-radius: 4px;
+
+}
