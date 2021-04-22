@@ -30,7 +30,7 @@ console.log(result.data);
   return (
     <div className = "main">
     <div className="app">
-      <h1 onClick={getRecipes}> 🍔  Recipes 🍔   </h1>
+      <h1 onClick={getRecipes}>  Recipes    </h1>
       <form className="app_searchForm" onSubmit={onSubmit}>
         <input
           type="text"
