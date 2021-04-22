@@ -40,7 +40,7 @@ console.log(result.data);
           onChange={(e) => setquery(e.target.value)}
         />
         <input className="app_submit" type="submit" value="Search" />
-        <select className="app_healthLabels">
+        <select placeholder = "dietary requirements"  type="pick"  value="Dropdown"className="app_healthLabels">
           <option onClick={() => sethealthLabels("vegetarian")}>Vegetarian</option>
           <option onClick={() => sethealthLabels("paleo")}>Paleo </option>
           <option onClick={() => sethealthLabels("vegan")}>Vegan </option>
